@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with-divece-with">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="\reset.css">
+        <link rel="stylesheet" href="/style.css">
+        <script src="/code.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1 class="head"><img src="imagenes/lol.gif" alt="Imagen decorativa" class="deco">Encriptador Alulara<img src="imagenes/Lol2.gif" alt="Imagen decorativa" class="deco"></h1>
+        </header>
+        <main>
+            <div class="contenido">
+                <div class="mensajeinputBotenes">
+                    <textarea name="mensajeinput" id="mensajeinput" placeholder="Escribe el mensaje en este espacio!"></textarea>
+                    <label for="mensajeinput" id="label1">&#8252 Solo minusculas y sin ascento</label>
+                    <div class="botones">
+                        <button type="button" name="encriptar" id="encriptar" value="0" class="boton" onclick="palabraCompleta(this.value)">Encriptar</button>
+                        <button type="button" name="desencriptar" id="desencriptar" value= "1" class="boton" onclick="palabraCompleta(this.value)">Desencriptar</button>
+                    </div>
+                </div>
+                <div class="mensajeoutput">
+                    <textarea name="mensajeoutput" id="mensajeoutput" placeholder="Ningun texto ha sido encriptado o desencriptado" readonly></textarea>
+                    <div class="botones">
+                        <button type="button" name="copiar" id="copiar" class="boton" onclick="copiarTexto()">Copiar</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="foot"><img src="imagenes/mew.gif" alt="Imagen decorativa" class="deco"> Derechos de autor © 2023 KevinM <img src="imagenes/mew.gif" alt="Imagen decorativa" class="deco"> </p>
+            <nav class="redes">
+                <li><a href="https://www.linkedin.com/in/kevin-ing-siste/" target="_blank"><img src="imagenes/linkedin.png" alt="Linkedin" id="link" class="deco"></a></li>
+                <li><a href="https://github.com/Kevin-M28" target="_blank"><img src="imagenes/github.png" id="git" alt="Linkedin" class="deco"></a></li>
+           </nav>
+        </footer>
+    </body>
+</html>
